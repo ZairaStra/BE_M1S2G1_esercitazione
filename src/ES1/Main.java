@@ -45,7 +45,7 @@ public class Main {
                 logger.error("Errore indice array: " + e.getMessage(), e);
             } catch (Exception e) {
                 System.out.println("Errore nell'inserimento, riprova");
-                logger.error("Tipo di input non valido per l'array", e);
+                logger.error("Tipo di iput non valido per l'array", e);
                 scanner.nextLine();
             }
         }

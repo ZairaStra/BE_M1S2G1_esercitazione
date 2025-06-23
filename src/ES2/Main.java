@@ -31,7 +31,7 @@ public class Main {
 
                 System.out.println("Consumo: " + consume + " km/litro");
 
-//                // double
+                // double
 //                System.out.print("Inserisci i km percorsi, 0 per uscire: ");
 //                double kmRun = scanner.nextDouble();
 //                if (kmRun == 0) {
@@ -46,7 +46,7 @@ public class Main {
 //                double consume = calc.kmPerLiter();
 //
 //                System.out.println("Consumo: " + consume + " km/litro");
-//
+
             } catch (ArithmeticException e) {
                 System.out.println("Errore: " + e.getMessage());
                 logger.error("Divisione per zero: " + e.getMessage(), e);
